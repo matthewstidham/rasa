@@ -73,8 +73,6 @@ async def test_events_schema(
 
     telemetry.track_shell_started("nlu")
 
-    telemetry.track_rasa_x_local()
-
     telemetry.track_visualization()
 
     telemetry.track_core_model_test(5, True, default_agent)
